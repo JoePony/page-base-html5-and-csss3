@@ -1,0 +1,2448 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="前端开发,html5,Css3,javasript" />
+    <meta name="description" content="前端开发" />
+    <link rel="stylesheet" href="static/css/index.min.css" type="text/css" />
+    <title>前端开发平台</title>
+    <script src="static/js/sea.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <!-- header -->    
+    <header class="clearfix">
+        <!-- 顶部快捷方式 -->
+        <div class="top-shortcut m-auto w-1k clearfix">
+            <form action="" method="" class="pos-r fl clearfix">
+                <input type="text" class="kw fl" id="kw" name="kw" placeholder="搜索课程、问答或Wiki" autocomplete="off" />
+                <input type="submit" class="search-btn cursor fl" id="search-btn" value="" />
+                <div class="quick-kw pos-a" id="search-quick-kw">
+                    <a href="">Android</a>
+                    <a href="">iOS</a>
+                    <a href="">HTML5</a>
+                </div>
+            </form>
+            <div class="login-box fr">
+                <a href="">&nbsp;</a>
+                <span>|</span>
+                <a href="">课程</a>
+                <span>|</span>
+                <a href="" class="vip"><img src="static/images/vip.png" width="40" height="15" alt="vip"></a>
+                <div class="user-menu pos-r">
+                    <a href="" class="username c-theme">
+                        <span>ThinkMan</span>
+                        <i class="arrow dis-ib pos-r"></i>
+                    </a>
+                    <div class="user-menu-sub pos-a">
+                        <div class="pos-a">
+                            <i class="dis-ib pos-r"></i>
+                        </div>
+                        <ul class="ta-center">
+                            <li><a href="" class="dis-b">个人主页</a></li>
+                            <li><a href="" class="dis-b">个人中心</a></li>
+                            <li><a href="" class="dis-b">课程</a></li>
+                            <li><a href="" class="dis-b">免费VIP</a></li>
+                            <li><a href="" class="dis-b">我的F码</a></li>
+                            <li><a href="" class="dis-b">账号设置</a></li>
+                            <li><a href="" class="dis-b">一键绑定</a></li>
+                            <li><a href="" class="dis-b">退出</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 顶部导航 -->
+        <div class="nav-wrap">
+            <div class="inner m-auto w-1k clearfix">
+                <ul class="fl">
+                    <li class="dis-ib"><a href="">首页</a></li>
+                    <li class="dis-ib"><a href="">职业课程表</a></li>
+                    <li class="dis-ib"><a href="">知识体系图</a></li>
+                    <li class="dis-ib"><a href="">职业路径图</a></li>
+                    <li class="dis-ib"><a href="">技术问答</a></li>
+                    <li class="dis-ib"><a href="">Wiki</a></li>
+                </ul>
+                <div class="user-box fr">
+                    <a href=""><img src="static/images/top-vip.png" alt="">VIP会员</a>
+                    <a href=""><img src="static/images/top-star.png" alt="">求课程</a>
+                    <a href=""><img src="static/images/top-app.png" alt="">客户端</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 主体 -->
+    <div class="wrapper w-1k m-auto">
+        <div class="clearfix linkTargets" id="firstLine">
+            <!-- 侧边导航 -->
+            <nav class="nav-aside pos-r fl" id="nav-aside">
+                <ul class="pos-a">
+                    <li>
+                        <a href="">移动开发</a>
+                        <div class="sub">
+                            <dl>
+                                <dt><a href="">应用开发</a></dt>
+                                <dd>
+                                    <a href="">Andriod</a>
+                                    <a href="">ios</a>
+                                    <a href="">ios</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">APP开发</a></dt>
+                                <dd>
+                                    <a href="">Andriod</a>
+                                    <a href="">ios</a>
+                                    <a href="">Andriod</a>
+                                    <a href="">ios</a>
+                                    <a href="">Andriod</a>
+                                    <a href="">ios</a>
+                                    <a href="">Andriod</a>
+                                    <a href="">ios</a>
+                                    <a href="">Andriod</a>
+                                    <a href="">ios</a>
+                                    <a href="">其它</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">前端开发</a>
+                        <div class="sub">
+                            <dl>
+                                <dt><a href="">应用开发</a></dt>
+                                <dd>
+                                    <a href="">Andriod</a>
+                                    <a href="">ios</a>
+                                    <a href="">ios</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">后端开发</a>
+                        <div class="sub">
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">基础知识</a>
+                        <div class="sub">
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">云计算&大数据</a>
+                        <div class="sub">
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">智能硬件&物联网</a>
+                        <div class="sub">
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">数据库</a>
+                        <div class="sub">
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">认证考试</a>
+                        <div class="sub">
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">企业IT</a>
+                        <div class="sub">
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">软件测试</a>
+                        <div class="sub">
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">设计&产品</a>
+                        <div class="sub">
+                            <dl>
+                                <dt><a href="">应用开发</a></dt>
+                                <dd>
+                                    <a href="">Andriod</a>
+                                    <a href="">ios</a>
+                                    <a href="">ios</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端进阶</a></dt>
+                                <dd>
+                                    <a href="">Typescript</a>
+                                    <a href="">项目开发</a>
+                                    <a href="">前端安全</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">前端基础</a></dt>
+                                <dd>
+                                    <a href="">HTML</a>
+                                    <a href="">css</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML5</a>
+                                    <a href="">css3</a>
+                                    <a href="">技术前瞻</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <!-- 轮播图 -->
+            <div class="slide banner fl has-slide-arrows" id="banner">
+                <ul class="banner-list clearfix" id="bannerList">
+                    <li>
+                        <a href="" title="前端开发1">
+                            <img src="static/images/temp/slide1.jpg" alt="前端开发1">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="前端开发2">
+                            <img src="static/images/temp/slide2.jpg" alt="前端开发2">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="双11秒杀">
+                            <img src="static/images/temp/slide3.jpg" alt="双11秒杀">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="免费送">
+                            <img src="static/images/temp/slide4.jpg" alt="免费送">
+                        </a>
+                    </li>
+                </ul>
+                <p class="thumbs">
+                    <!--以下索引按钮由js动态添加 -->
+                    <!--
+                    <span class="thumb dis-ib cursor curr"></span>
+                    <span class="thumb dis-ib cursor"></span>
+                    <span class="thumb dis-ib cursor"></span> 
+                    <-->
+                </p>
+                <span class="slide-arrow slide-arrow-prev cursor"></span>
+                <span class="slide-arrow slide-arrow-next cursor"></span>
+            </div>
+            <!-- 关于 -->
+            <div class="about ta-center fr">
+                <a href="" class="dis-b">
+                    <h2>前端开发 让学习更有效</h2>
+                    <p class="size-0">
+                        <span class="c-theme">最新</span>
+                        <span class="c-theme">系统</span>
+                        <span class="c-theme">开发</span>
+                    </p>
+                    <button class="btn1">了解前端开发</button>
+                </a>
+                <a href="" class="dis-b">
+                    <h2>成为VIP 即可启程</h2>
+                    <p class="c-theme">
+                        √ 全部课程 √ 高清视频
+                        <br /> √ 问答服务 √ 课程资料
+                    </p>
+                    <button class="btn2">了解VIP权益</button>
+                </a>
+            </div>
+        </div>
+        <ul class="hotLessonTags clearfix linkTargets" id="hotLessonTags">
+            <li class="pos-r ta-center cursor fl curr">热门推荐</li>
+            <li class="pos-r ta-center cursor fl">最新课程</li>
+            <li class="pos-r ta-center cursor fl">免费课程</li>
+            <li class="pos-r ta-center cursor fl">项目开发</li>
+            <li class="pos-r ta-center cursor fl">全球首发</li>
+            <li class="pos-r ta-center cursor fl">企业合作</li>
+        </ul>
+        <!-- 热门推荐等切换部分 -->
+        <div class="hot-lesson-wrap" id="hot-lessons">
+            <ul class="list clearfix curr">
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand1.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand2.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand3.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand4.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand5.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand6.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand7.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand1.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="list clearfix">
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand7.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand1.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand2.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand3.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand4.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand1.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand5.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand6.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="list clearfix free">
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand1.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                    <p class="free-icon pos-a"></p>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand2.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                    <p class="free-icon pos-a"></p>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand3.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                    <p class="free-icon pos-a"></p>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand4.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                    <p class="free-icon pos-a"></p>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand5.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                    <p class="free-icon pos-a"></p>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand6.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                    <p class="free-icon pos-a"></p>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand7.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                    <p class="free-icon pos-a"></p>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand1.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                    <p class="free-icon pos-a"></p>
+                </li>
+            </ul>
+            <ul class="list clearfix">
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand7.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand1.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand1.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand2.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand3.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand4.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand5.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand6.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="list clearfix">
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand7.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand1.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand2.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand3.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand4.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand1.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand5.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand6.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="list clearfix">
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand1.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand2.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand3.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand4.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand5.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand6.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand7.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+                <li class="hot-lesson-item fl">
+                    <a href="" class="img-a">
+                        <img src="static/images/temp/recommand1.jpg" alt="课程1">
+                        <span class="mask"><i class="dis-n"></i></span>
+                    </a>
+                    <div>
+                        <h2><a href="">Meteor 会话与响应式Meteor 会话与响应式</a></h2>
+                        <p>
+                            本课程作为初级篇，引领大家进入 ASP.NET Identity 的世界。在本课程中，将讲解ASP.NET Identity的基本使用方法，然后开发简单的后台管理员工具，通过此工具，可以对用户和角色进行管理。
+                        </p>
+                        <dl>
+                            <dt class="clearfix">
+                                <em class="fl">3课时 33分钟</em><i class="dis-n fr">2206人学习</i>
+                            </dt>
+                            <dd class="dis-n">初级</dd>
+                        </dl>
+                        <a href="" class="category-a" title="响应式"><img src="static/images/lesson-category-bigdata.png" width="16" height="16" alt="响应式"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- 职业路径图 -->
+        <div class="common-tab clearfix linkTargets" id="career">
+            <a href="" class="fl">职业路径图</a>
+            <em class="common-question-mark ta-center rounded100 cursor fl">?</em>
+            <span class="pos-r fl"><i></i><em></em>更快速找到你需要的课程</span>
+            <a href="" class="more c-theme fr">更多&gt;&gt;</a>
+        </div>
+        <div class="learning-path clearfix">
+            <a href="" class="ta-center">
+                <img src="static/images/temp/learning-path1.png" width="100%" height="120" alt="前端开发" />
+                <h2>WEB大前端工程师</h2>
+                <p>热度：100%</p>
+                <p>Web开发的未来趋势</p>
+                <button class="btn2">开始学习</button>
+            </a>
+            <a href="" class="ta-center">
+                <img src="static/images/temp/learning-path2.png" width="100%" height="120" alt="前端开发" />
+                <h2>Android工程师</h2>
+                <p>热度：100%</p>
+                <p>最火爆的职业 人才缺口大</p>
+                <button class="btn2">开始学习</button>
+            </a>
+            <a href="" class="ta-center">
+                <img src="static/images/temp/learning-path3.png" width="100%" height="120" alt="前端开发" />
+                <h2>iOS开发工程师</h2>
+                <p>热度：100%</p>
+                <p>企业必争的人才资源</p>
+                <button class="btn2">开始学习</button>
+            </a>
+            <a href="" class="ta-center">
+                <img src="static/images/temp/learning-path4.png" width="100%" height="120" alt="前端开发" />
+                <h2>JavaWeb工程师</h2>
+                <p>热度：100%</p>
+                <p>就业面最广的职业方向</p>
+                <button class="btn2">开始学习</button>
+            </a>
+            <a href="" class="ta-center">
+                <img src="static/images/temp/learning-path5.png" width="100%" height="120" alt="前端开发" />
+                <h2>PHP工程师</h2>
+                <p>热度：100%</p>
+                <p>最好的开发语言 没有之一</p>
+                <button class="btn2">开始学习</button>
+            </a>
+            <a href="" class="ta-center">
+                <img src="static/images/temp/learning-path6.png" width="100%" height="120" alt="前端开发" />
+                <h2>Cocos2d工程师</h2>
+                <p>热度：100%</p>
+                <p>最流行跨平台手机游戏开发</p>
+                <button class="btn2">开始学习</button>
+            </a>
+            <a href="" class="ta-center">
+                <img src="static/images/temp/learning-path8.png" width="100%" height="120" alt="前端开发" />
+                <h2>Unity3D工程师</h2>
+                <p>热度：100%</p>
+                <p>国际最热门的3D游戏引擎</p>
+                <button class="btn2">开始学习</button>
+            </a>
+            <a href="" class="ta-center">
+                <img src="static/images/temp/learning-path7.png" width="100%" height="120" alt="前端开发" />
+                <h2>ASP.NET工程师</h2>
+                <p>热度：100%</p>
+                <p>微软强力推行的开发语言</p>
+                <button class="btn2">开始学习</button>
+            </a>
+            <a href="" class="ta-center coming-soon">
+                <img src="static/images/temp/learning-path9.png" width="100%" height="120" alt="前端开发" />
+                <h2>大数据工程师</h2>
+                <p>热度：100%</p>
+                <p>目前最稀缺的职业方向</p>
+                <button class="btn2">开始学习</button>
+            </a>
+            <a href="" class="ta-center coming-soon">
+                <img src="static/images/temp/learning-path10.png" width="100%" height="120" alt="前端开发" />
+                <h2>运维工程师</h2>
+                <p>热度：100%</p>
+                <p>最能折腾的职业岗位</p>
+                <button class="btn2">开始学习</button>
+            </a>
+        </div>
+        <!-- 知识体系图 -->
+        <div class="common-tab clearfix linkTargets" id="knowledge">
+            <a href="" class="fl">知识体系图</a>
+            <em class="common-question-mark ta-center rounded100 cursor fl">?</em>
+            <span class="fl"><i></i><em></em>更快速找到你需要的课程</span>
+            <a href="" class="more c-theme fr">更多&gt;&gt;</a>
+        </div>
+        <ul class="knowledge clearfix">
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-android.png" height="40" alt="安卓" />
+                        <h2>Android</h2>
+                        <h3 class="c-theme">77门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">309840人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-web.png" height="40" alt="Web前端" />
+                        <h2>Web前端</h2>
+                        <h3 class="c-theme">108门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">509840人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-html.png" height="40" alt="HTML5开发" />
+                        <h2>HTML5开发</h2>
+                        <h3 class="c-theme">106门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">109330人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-Java.png" height="40" alt="Java语言" />
+                        <h2>Java语言</h2>
+                        <h3 class="c-theme">40门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">89845人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-php.png" height="40" alt="PHP语言" />
+                        <h2>PHP语言</h2>
+                        <h3 class="c-theme">19门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">783440人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-javaweb.jpg" height="40" alt="JavaWeb" />
+                        <h2>JavaWeb</h2>
+                        <h3 class="c-theme">49门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">109545人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-ios.png" height="40" alt="iOS开发" />
+                        <h2>iOS开发</h2>
+                        <h3 class="c-theme">34门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">293430人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-android.png" height="40" alt="C语言" />
+                        <h2>C语言</h2>
+                        <h3 class="c-theme">15门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">880931人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-python.png" height="40" alt="Python" />
+                        <h2>Python</h2>
+                        <h3 class="c-theme">48门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">40998人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-unity3d.png" height="40" alt="Unity3D" />
+                        <h2>Unity3D</h2>
+                        <h3 class="c-theme">45门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">4065人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-swift.png" height="40" alt="Swift语言" />
+                        <h2>Swift语言</h2>
+                        <h3 class="c-theme">6门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">91331人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-ccharp.png" height="40" alt="C#" />
+                        <h2>C#</h2>
+                        <h3 class="c-theme">15门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">450984人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-cc.png" height="40" alt="Cocos2d-x开发" />
+                        <h2>Cocos2d-x开发</h2>
+                        <h3 class="c-theme">90门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">20981人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-classA.jpg" height="40" alt="计算机一级" />
+                        <h2>计算机一级</h2>
+                        <h3 class="c-theme">7门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">302448人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-classB.jpg" height="40" alt="计算机二级" />
+                        <h2>计算机二级</h2>
+                        <h3 class="c-theme">25门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">459083人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-gui.png" height="40" alt="GUI" />
+                        <h2>GUI</h2>
+                        <h3 class="c-theme">27门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">8920人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-WatchKit.png" height="40" alt="WatchKit开发" />
+                        <h2>WatchKit开发</h2>
+                        <h3 class="c-theme">5门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">3012人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-dotNet.png" height="40" alt="Asp.net" />
+                        <h2>Asp.net</h2>
+                        <h3 class="c-theme">61门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">45630人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-Docter.png" height="40" alt="Docter" />
+                        <h2>Docter</h2>
+                        <h3 class="c-theme">9门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">3902人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-Egret.png" height="40" alt="Egret" />
+                        <h2>Egret</h2>
+                        <h3 class="c-theme">7门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">9822人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-Arduino.png" height="40" alt="Arduino" />
+                        <h2>Arduino</h2>
+                        <h3 class="c-theme">11门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">1029人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-UiAutomator.png" height="40" alt="Android UiAutomator" />
+                        <h2>Android UiAutomator</h2>
+                        <h3 class="c-theme">20门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">4420人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-bootstrap.png" height="40" alt="Bootstrap" />
+                        <h2>Bootstrap</h2>
+                        <h3 class="c-theme">11门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">332108人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+            <li class="border ta-center fl">
+                <a href="">
+                    <div class="front-side">
+                        <img src="static/images/temp/knowledge-jQuery.png" height="40" alt="jQuery" />
+                        <h2>jQuery</h2>
+                        <h3 class="c-theme">8门课程</h3>
+                    </div>
+                    <div class="back-side">
+                        <p class="c-theme">330218人已学习</p>
+                        <button class="btn1">开始学习</button>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <!-- 精品系列课程 -->
+        <div class="common-tab clearfix linkTargets" id="classic">
+            <a href="" class="fl">精品系列课程</a>
+            <em class="common-question-mark ta-center rounded100 cursor fl">?</em>
+            <span class="fl"><i></i><em></em>更快速找到你需要的课程</span>
+            <a href="" class="more c-theme fr">更多&gt;&gt;</a>
+        </div>
+        <ul class="excellent-lessons clearfix">
+            <li class="border-h fl">
+                <div class="wrap">
+                    <div class="description">
+                        <p class="ta-center">
+                            <a href="" class="avatar-a">
+                                <img class="rounded100" src="static/images/temp/excellent-avatar1.jpg" alt="avatar1">
+                            </a>
+                        </p>
+                        <p class="name ta-center"><a href="">hexter</a></p>
+                        <a href="">
+                            按照一个模式一个课程的方式讲解23种设计模式。
+                            每个模式讲3-4节课
+                        </a>
+                        <p class="btn-wrap ta-center"><a href="" class="btn btn1">马上学习</a></p>
+                    </div>
+                    <div class="poster-wrap">
+                        <h2 class="ellipsis">Java 设计模式</h2>
+                        <img src="static/images/temp/excellent-poster1.jpg" alt="excellent lesson1">
+                    </div>
+                    <div class="poster-mask"></div>
+                    <p class="other clearfix">
+                        <span class="fl">24门</span>
+                        <span class="fl">64136人学习</span>
+                        <a href="" class="btn1 fr">收藏</a>
+                    </p>
+                </div>
+            </li>
+            <li class="border-h fl">
+                <div class="wrap">
+                    <div class="description">
+                        <p class="ta-center">
+                            <a href="" class="avatar-a">
+                                <img class="rounded100" src="static/images/temp/excellent-avatar2.jpeg" alt="avatar1">
+                            </a>
+                        </p>
+                        <p class="name ta-center"><a href="">fan2597</a></p>
+                        <a href="">
+                            按照一个模式一个课程的方式讲解23种设计模式。
+                            每个模式讲3-4节课
+                        </a>
+                        <p class="btn-wrap ta-center"><a href="" class="btn btn1">马上学习</a></p>
+                    </div>
+                    <div class="poster-wrap">
+                        <h2 class="ellipsis">Android UI自动化测试 UiAutomator</h2>
+                        <img src="static/images/temp/excellent-poster2.jpg" alt="excellent lesson1">
+                    </div>
+                    <div class="poster-mask"></div>
+                    <p class="other clearfix">
+                        <span class="fl">24门</span>
+                        <span class="fl">64136人学习</span>
+                        <a href="" class="btn1 fr">收藏</a>
+                    </p>
+                </div>
+            </li>
+            <li class="border-h fl">
+                <div class="wrap">
+                    <div class="description">
+                        <p class="ta-center">
+                            <a href="" class="avatar-a">
+                                <img class="rounded100" src="static/images/temp/excellent-avatar3.jpeg" alt="avatar1">
+                            </a>
+                        </p>
+                        <p class="name ta-center"><a href="">韦苏恩</a></p>
+                        <a href="">
+                            按照一个模式一个课程的方式讲解23种设计模式。
+                            每个模式讲3-4节课
+                        </a>
+                        <p class="btn-wrap ta-center"><a href="" class="btn btn1">马上学习</a></p>
+                    </div>
+                    <div class="poster-wrap">
+                        <h2 class="ellipsis">Python 初级教程</h2>
+                        <img src="static/images/temp/excellent-poster3.jpg" alt="excellent lesson1">
+                    </div>
+                    <div class="poster-mask"></div>
+                    <p class="other clearfix">
+                        <span class="fl">24门</span>
+                        <span class="fl">64136人学习</span>
+                        <a href="" class="btn1 fr">收藏</a>
+                    </p>
+                </div>
+            </li>
+            <li class="border-h fl">
+                <div class="wrap">
+                    <div class="description">
+                        <p class="ta-center">
+                            <a href="" class="avatar-a">
+                                <img class="rounded100" src="static/images/temp/excellent-avatar4.jpeg" alt="avatar1">
+                            </a>
+                        </p>
+                        <p class="name ta-center"><a href="">曾亮LiangZeng</a></p>
+                        <a href="">
+                            按照一个模式一个课程的方式讲解23种设计模式。
+                            每个模式讲3-4节课
+                        </a>
+                        <p class="btn-wrap ta-center"><a href="" class="btn btn1">马上学习</a></p>
+                    </div>
+                    <div class="poster-wrap">
+                        <h2 class="ellipsis">WebGL 开发解析</h2>
+                        <img src="static/images/temp/excellent-poster4.jpg" alt="excellent lesson1">
+                    </div>
+                    <div class="poster-mask"></div>
+                    <p class="other clearfix">
+                        <span class="fl">24门</span>
+                        <span class="fl">64136人学习</span>
+                        <a href="" class="btn1 fr">收藏</a>
+                    </p>
+                </div>
+            </li>
+        </ul>
+        <!-- Wiki -->
+        <div class="common-tab clearfix linkTargets" id="wiki">
+            <a href="" class="fl">Wiki</a>
+            <em class="common-question-mark ta-center rounded100 cursor fl">?</em>
+            <span class="fl"><i></i><em></em>更快速找到你需要的课程</span>
+            <a href="" class="more c-theme fr">更多&gt;&gt;</a>
+        </div>
+        <ul class="wiki clearfix">
+            <li class="border-h fl">
+                <h3>推荐</h3>
+                <dl class="clearfix">
+                    <dt class="fl">
+                        <div class="rounded5">
+                            <a href="" class="cover">
+                                <img src="static/images/temp/wiki1-1.jpg" class="rounded5" alt="神奇的go语言">
+                                <span class="have-a-look pos-a dis-ib"></span>
+                            </a>
+                        </div>
+                        <h4 class="ellipsis ta-center"><a href="" title="Struts 2 教程">Struts 2 教程</a></h4>
+                        <p class="ta-center">154页/27章</p>
+                    </dt>
+                    <dd class="fr">
+                        <div class="rounded5">
+                            <a href="" class="cover">
+                                <img src="static/images/temp/wiki1-2.jpg" class="rounded5" alt="神奇的go语言">
+                                <span class="have-a-look pos-a dis-ib"></span>
+                            </a>
+                        </div>
+                        <h4 class="ellipsis ta-center"><a href="" title="神奇的go语言">神奇的go语言神奇的go语言神奇的go语言</a></h4>
+                        <p class="ta-center">190页/19章</p>
+                    </dd>
+                </dl>
+                <ol class="other-books">
+                    <li>
+                        <a href="" class="clearfix" title="Tomcat 8 权威指南">
+                            <span class="ellipsis fl">· Tomcat 8 权威指南Tomcat 8 权威指南Tomcat 8 权威指南</span>
+                            <span class="page fr">493页/33章</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="clearfix">
+                            <span class="ellipsis fl">· Java 语言快速入门</span>
+                            <span class="page fr">290页/19章</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="clearfix">
+                            <span class="ellipsis fl">· 深度解析 ECMAScript 6</span>
+                            <span class="page fr">182页/15章</span>
+                        </a>
+                    </li>
+                </ol>
+            </li>
+            <li class="border-h fl">
+                <h3>热门</h3>
+                <dl class="clearfix">
+                    <dt class="fl">
+                        <div class="rounded5">
+                            <a href="" class="cover">
+                                <img src="static/images/temp/wiki2-1.jpg" class="rounded5" alt="神奇的go语言">
+                                <span class="have-a-look pos-a dis-ib"></span>
+                            </a>
+                        </div>
+                        <h4 class="ellipsis ta-center"><a href="" title="Struts 2 教程">Struts 2 教程</a></h4>
+                        <p class="ta-center">154页/27章</p>
+                    </dt>
+                    <dd class="fr">
+                        <div class="rounded5">
+                            <a href="" class="cover">
+                                <img src="static/images/temp/wiki2-2.jpg" class="rounded5" alt="神奇的go语言">
+                                <span class="have-a-look pos-a dis-ib"></span>
+                            </a>
+                        </div>
+                        <h4 class="ellipsis ta-center"><a href="" title="神奇的go语言">神奇的go语言神奇的go语言神奇的go语言</a></h4>
+                        <p class="ta-center">190页/19章</p>
+                    </dd>
+                </dl>
+                <ol class="other-books">
+                    <li>
+                        <a href="" class="clearfix" title="Tomcat 8 权威指南">
+                            <span class="ellipsis fl">· Tomcat 8 权威指南Tomcat 8 权威指南Tomcat 8 权威指南</span>
+                            <span class="page fr">493页/33章</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="clearfix">
+                            <span class="ellipsis fl">· Java 语言快速入门</span>
+                            <span class="page fr">290页/19章</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="clearfix">
+                            <span class="ellipsis fl">· 深度解析 ECMAScript 6</span>
+                            <span class="page fr">182页/15章</span>
+                        </a>
+                    </li>
+                </ol>
+            </li>
+            <li class="border-h fl">
+                <h3>最新</h3>
+                <dl class="clearfix">
+                    <dt class="fl">
+                        <div class="rounded5">
+                            <a href="" class="cover">
+                                <img src="static/images/temp/wiki3-1.jpg" class="rounded5" alt="神奇的go语言">
+                                <span class="have-a-look pos-a dis-ib"></span>
+                            </a>
+                        </div>
+                        <h4 class="ellipsis ta-center"><a href="" title="Struts 2 教程">Struts 2 教程</a></h4>
+                        <p class="ta-center">154页/27章</p>
+                    </dt>
+                    <dd class="fr">
+                        <div class="rounded5">
+                            <a href="" class="cover">
+                                <img src="static/images/temp/wiki3-2.jpg" class="rounded5" alt="神奇的go语言">
+                                <span class="have-a-look pos-a dis-ib"></span>
+                            </a>
+                        </div>
+                        <h4 class="ellipsis ta-center"><a href="" title="神奇的go语言">神奇的go语言神奇的go语言神奇的go语言</a></h4>
+                        <p class="ta-center">190页/19章</p>
+                    </dd>
+                </dl>
+                <ol class="other-books">
+                    <li>
+                        <a href="" class="clearfix" title="Tomcat 8 权威指南">
+                            <span class="ellipsis fl">· Tomcat 8 权威指南Tomcat 8 权威指南Tomcat 8 权威指南</span>
+                            <span class="page fr">493页/33章</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="clearfix">
+                            <span class="ellipsis fl">· Java 语言快速入门</span>
+                            <span class="page fr">290页/19章</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="clearfix">
+                            <span class="ellipsis fl">· 深度解析 ECMAScript 6</span>
+                            <span class="page fr">182页/15章</span>
+                        </a>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+        <!-- 合作企业 -->
+        <div class="common-tab clearfix linkTargets" id="enterprise">
+            <a href="" class="fl">战略合作企业</a>
+            <em class="common-question-mark ta-center rounded100 cursor fl">?</em>
+            <span class="fl"><i></i><em></em>更快速找到你需要的课程</span>
+            <a href="" class="more c-theme fr">更多&gt;&gt;</a>
+        </div>
+        <div class="border has-slide-arrows" id="partners">
+            <ul class="partners-list clearfix" id="partnersList">
+                <li>
+                    <a href="" class="border-h"><img src="static/images/temp/partners1 (1).jpg" alt="合作企业1"></a>
+                </li>
+                <li>
+                    <a href="" class="border-h"><img src="static/images/temp/partners1 (2).jpg" alt="合作企业2"></a>
+                </li>
+                <li>
+                    <a href="" class="border-h"><img src="static/images/temp/partners1 (3).jpg" alt="合作企业3"></a>
+                </li>
+                <li>
+                    <a href="" class="border-h"><img src="static/images/temp/partners1 (4).jpg" alt="合作企业4"></a>
+                </li>
+                <li>
+                    <a href="" class="border-h"><img src="static/images/temp/partners1 (5).jpg" alt="合作企业5"></a>
+                </li>
+                <li>
+                    <a href="" class="border-h"><img src="static/images/temp/partners1 (6).jpg" alt="合作企业6"></a>
+                </li>
+            </ul>
+            <span class="slide-arrow slide-arrow-prev cursor"></span>
+            <span class="slide-arrow slide-arrow-next cursor"></span>
+        </div>
+        <!-- 合作院校 -->
+        <div class="common-tab clearfix linkTargets" id="college">
+            <a href="" class="fl">合作院校</a>
+            <em class="common-question-mark ta-center rounded100 cursor fl">?</em>
+            <span class="fl"><i></i><em></em>更快速找到你需要的课程</span>
+            <a href="" class="more c-theme fr">更多&gt;&gt;</a>
+        </div>
+        <div class="border has-slide-arrows" id="schools">
+            <ul class="schools-list clearfix" id="schoolsList">
+                <li>
+                    <a href=""><img src="static/images/temp/school1.png" alt="合作院校1"></a>
+                </li>
+                <li>
+                    <a href=""><img src="static/images/temp/school2.png" alt="合作院校2"></a>
+                </li>
+                <li>
+                    <a href=""><img src="static/images/temp/school3.png" alt="合作院校3"></a>
+                </li>
+                <li>
+                    <a href=""><img src="static/images/temp/school4.png" alt="合作院校4"></a>
+                </li>
+                <li>
+                    <a href=""><img src="static/images/temp/school5.png" alt="合作院校5"></a>
+                </li>
+                <li>
+                    <a href=""><img src="static/images/temp/school6.png" alt="合作院校6"></a>
+                </li>
+                <li>
+                    <a href=""><img src="static/images/temp/school7.png" alt="合作院校7"></a>
+                </li>
+            </ul>
+            <span class="slide-arrow slide-arrow-prev cursor"></span>
+            <span class="slide-arrow slide-arrow-next cursor"></span>
+        </div>
+        <!-- 媒体报道 -->
+        <div class="common-tab clearfix linkTargets" id="media">
+            <a href="" class="fl">媒体报道</a>
+            <em class="common-question-mark ta-center rounded100 cursor fl">?</em>
+            <span class="fl"><i></i><em></em>更快速找到你需要的课程</span>
+            <a href="" class="more c-theme fr">更多&gt;&gt;</a>
+        </div>
+        <div class="border has-slide-arrows" id="medias">
+            <ul class="medias-list clearfix" id="mediasList">
+                <li>
+                    <a href="" class="border-h"><img src="static/images/temp/media1.jpg" alt="媒体报道1"></a>
+                </li>
+                <li>
+                    <a href="" class="border-h"><img src="static/images/temp/media2.jpg" alt="媒体报道2"></a>
+                </li>
+                <li>
+                    <a href="" class="border-h"><img src="static/images/temp/media3.jpg" alt="媒体报道3"></a>
+                </li>
+                <li>
+                    <a href="" class="border-h"><img src="static/images/temp/media4.jpg" alt="媒体报道4"></a>
+                </li>
+                <li>
+                    <a href="" class="border-h"><img src="static/images/temp/media5.jpg" alt="媒体报道5"></a>
+                </li>
+                <li>
+                    <a href="" class="border-h"><img src="static/images/temp/media6.jpg" alt="媒体报道6"></a>
+                </li>
+            </ul>
+            <span class="slide-arrow slide-arrow-prev cursor"></span>
+            <span class="slide-arrow slide-arrow-next cursor"></span>
+        </div>
+        <!-- 右侧固定部分 -->
+        <div class="fixed-aside"> 
+            <ul class="fixed-aside-shortcut z999">
+                <!-- <li class="linkTo"><a href="#firstLine">1</a></li> -->
+                <li class="top cursor" id="top" title="返回顶部"></li>
+                <li class="app pos-r cursor">
+                    <img src="static/images/appewm.png" class="pos-a dis-n" height="160" alt="app二维码">
+                </li>
+                <li class="survey cursor"><a href="" class="dis-ib" target="_blank"></a></li>
+                <li class="online-service cursor" id="online-service">
+                    <a href="" class="dis-ib pos-r" target="_blank">
+                        <span class="tips pos-a dis-ib ta-center">
+                            在线客服<br/>工作日9:00-21:00在线
+                            <i class="pos-a dis-ib"></i>
+                            <em class="pos-a dis-ib"></em>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="wrap">
+            <div class="w-1k m-auto">
+                <div class="inner w-1k clearfix">
+                    <dl>
+                        <dt><a href="">前端开发</a></dt>
+                        <dd><a href="">知识体系图</a></dd>
+                        <dd><a href="">职业路径图</a></dd>
+                        <dd><a href="">企业课程</a></dd>
+                        <dd><a href="">资料下载</a></dd>
+                        <dd><a href="">课程标签</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="">网站服务</a></dt>
+                        <dd><a href="">课程需求</a></dd>
+                        <dd><a href="">免费体验VIP</a></dd>
+                        <dd><a href="">黑板报</a></dd>
+                        <dd><a href="">网站地图</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="">帮助中心</a></dt>
+                        <dd><a href="">技术问答</a></dd>
+                        <dd><a href="">VIP权益</a></dd>
+                        <dd><a href="">常见问题</a></dd>
+                        <dd><a href="">服务条款</a></dd>
+                        <dd><a href="">版权声明</a></dd>
+                        <dd><a href="">免责声明</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="">交流合作</a></dt>
+                        <dd><a href="">关于我们</a></dd>
+                        <dd><a href="">联系我们</a></dd>
+                        <dd><a href="">社会招聘</a></dd>
+                        <dd><a href="">合作咨询</a></dd>
+                        <dd><a href="">友情链接</a></dd>
+                        <dd><a href="">即可助教招募</a></dd>
+                    </dl>
+                    <div class="share">
+                        <h2 class="c-theme">前端开发，编程是一种信仰！</h2>
+                        <a href="" class="app">
+                            <img src="static/images/iphone.png" class="fl" width="21" alt="app">
+                            <p>手机客户端</p>
+                            <span>离线缓存 随时学习&gt;</span>
+                        </a>
+                        <ul class="share-to clearfix">
+                            <li class="fl"><a href="" class="dis-ib" target="_blank"></a></li>
+                            <li class="fl"><a href="" class="tieba dis-ib" title="前端开发官方百度贴吧" target="_blank"></a></li>
+                            <li class="fl">
+                                <a href="javascript:void(0);" class="weixin dis-ib pos-r" title="前端开发官方百度贴吧">
+                                    <img src="static/images/weixin.png" class="pos-a" alt="二维码" />
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="" class="contact dis-b" target="_blank">
+                            <i class="dis-ib fl"></i>
+                            <p>联系我们</p>
+                            <span>工作日9:00-21:00在线</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copyright ta-center">
+            <span>Copyright &copy; 2013-2015 </span>
+            <a href="javascript:void(0);">前端开发</a>
+            <span> All Rights Reversed.</span>
+        </p>
+    </footer>
+    <!-- seajs模块化 -->
+    <script>
+    seajs.config({
+        base: "./js/", //设定js文件base路径
+        alias: {
+            "jquery": "jquery-1.11.3.min.js" //引入js/jquery.js文件
+        }
+    })
+    seajs.use("./js/main"); // 加载入口模块
+    </script>
+</body>
+</html>
